@@ -1,0 +1,37 @@
+<resources>
+    <!--Setting variables by default -->
+    <string name="app_name">Currency_Converter_2909637</string>
+    <string name="et_converterValue">1</string>
+    <string name="btn_convert">CONVERT</string>
+    <string name="tv_display">EUR</string>
+    <!--ArrayList used to get the currency to be evaluated -->
+    <string-array name="spinner_converter">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>AUD</item>
+        <item>CAD</item>
+    </string-array>
+    <!--Used in the ListView -->
+    <string-array name="spinner_converter_textView">
+        <item>Euros</item>
+        <item>Dollars</item>
+        <item>Pounds</item>
+        <item>Japanese Yens</item>
+        <item>Australians Dollars</item>
+        <item>Canadian Dollars</item>
+    </string-array>
+    <!--Used for the EUR currency -->
+    <string-array name="spinner_converter_values">
+        <item>1</item>
+        <item>1.12974</item>
+        <item>0.7289</item>
+        <item>136.156</item>
+        <item>1.57155</item>
+        <item>1.49167</item>
+    </string-array>
+    <string name="action_settings">Settings</string>
+
+
+</resources>
